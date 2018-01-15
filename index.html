@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./build/main.css" rel="stylesheet">
+    <title>Continuous Scroll</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="wrapper__inner"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./build/infiniteScroll.js" type="text/javascript"></script>
+<script>
+    $(document).ready( function() {
+        $('.wrapper').infiniteScroll({
+            url: 'https://reqres.in/api/users',
+            numItemsOnPage: 3
+        });
+    });
+</script>
+</body>
+</html>

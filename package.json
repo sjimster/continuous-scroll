@@ -1,0 +1,36 @@
+{
+  "name": "continuous-scroll",
+  "version": "1.0.0",
+  "description": "Continuous scroll jQuery plugin for getting posts on a page. Based on AJAX.",
+  "main": "infiniteScroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjimster/continuous-scroll.git"
+  },
+  "keywords": [
+    "jQuery",
+    "Continuous",
+    "scroll",
+    "jQuery",
+    "plugin"
+  ],
+  "author": "Jimmy van der Sleen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjimster/continuous-scroll/issues"
+  },
+  "homepage": "https://github.com/sjimster/continuous-scroll#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-sourcemaps": "^2.6.0"
+  }
+}
