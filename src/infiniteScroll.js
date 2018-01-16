@@ -62,11 +62,9 @@
                 }
             }).then( (data) => {
                 $('.loader').remove();
-                // $.each(data.data, function ( index, value ) {
-                //     $('.' + settings.wrapperInnerClass).append( buildHtmlString( value.first_name, value.id, value.last_name ) );
-                // });
-                //
+
                 let posts = data.data;
+                
                 posts.map( (post) => {
                     $('.' + settings.wrapperInnerClass).append( buildHtmlString( post.first_name, post.id, post.last_name ) );
                 });
